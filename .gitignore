@@ -1,0 +1,30 @@
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Java and Maven build output
+target/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring Boot configuration containing credentials
+application-local.properties
+backend/src/main/resources/application-local.properties
+
+# Logs
+*.log
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.jks

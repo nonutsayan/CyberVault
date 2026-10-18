@@ -5,7 +5,7 @@ import {
   ChevronRight, Radar, Terminal, Eye, Zap
 } from 'lucide-react';
 
-const API = 'http://localhost:8080/api/incidents';
+const API = 'https://cybervault-api-9hpm.onrender.com/api/incidents';
 const blankForm = { title: '', description: '', severity: 'MEDIUM', status: 'OPEN', sourceIp: '' };
 
 function strengthFor(password) {

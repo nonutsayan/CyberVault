@@ -11,7 +11,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/incidents")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://cybervault-uw5t.onrender.com"
+})
 public class IncidentController {
     private final IncidentRepository repository;
 
